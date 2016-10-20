@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+# Initialize the project with movie data
 batman_begins = media.Movie("Batman Begins", "First Movie of Batman: Dark Knight Trilogy",
                             "https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg",
                             "https://www.youtube.com/watch?v=neY2xVmOfUM")
@@ -33,7 +34,9 @@ titanic = media.Movie("Titanic", "Story of Love",
                       "https://upload.wikimedia.org/wikipedia/en/2/22/Titanic_poster.jpg",
                       "https://www.youtube.com/watch?v=2e-eXJ6HgkQ")
 
+#Creating the array of movie data
 movies = [batman_begins, dark_knight, dark_knight_rises, toy_story, avatar, avengers, the_proposal, titanic]
+#Creating the web page
 fresh_tomatoes.create_movie_tiles_content(movies)
 fresh_tomatoes.open_movies_page(movies)
 
