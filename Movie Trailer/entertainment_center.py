@@ -17,7 +17,8 @@ dark_knight = media.Movie(
 dark_knight_rises = media.Movie(
     "The Dark Knight Rises",
     "Third Movie of Batman: Dark Knight Trilogy",
-    "https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.\
+jpg",
     "https://www.youtube.com/watch?v=J9DlV9qwtF0")
 
 toy_story = media.Movie(

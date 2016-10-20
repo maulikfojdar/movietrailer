@@ -7,6 +7,9 @@ class Movie():
     """
 
     def __init__(self, movie_title, movie_story, poster_image, trailer_youtube):
+        """
+            Init method initilaizing the variables. All variables are String variables.
+        """
         self.title = movie_title
         self.storyline = movie_story
         self.poster_image_url = poster_image
